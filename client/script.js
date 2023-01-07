@@ -1,5 +1,5 @@
 import bot from './assets/bot.svg';
-import user from './assets/user.svg';
+import user from './assets/Duke49th.svg';
 
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server -> bots response 
-  const response = await fetch('https://dukeai.onrender.com/', {
+  const response = await fetch('https://dukeai.onrender.com', {
     method: 'Post',
     headers: {
       'Content-Type': 'application/json'
