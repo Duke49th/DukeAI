@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
+  position: relative;
+  bottom: 0;
 }
 
 body, html {
@@ -20,15 +22,14 @@ body {
 
 #app {
   width: 100vw;
-  height: auto;
+  height: 100vw;
   background: #242424;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  bottom: 10px;
+
 
 }
 
