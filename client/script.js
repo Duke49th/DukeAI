@@ -99,6 +99,9 @@ const handleSubmit = async (e) => {
     //console.log({parsedData})
 
     typeText(messageDiv, parsedData);
+    DefaultCaret caret = (DefaultCaret) textArea.getCaret();
+    caret.setUpdatePolicy(ALWAYS_UPDATE);
+
   } else {
     const err = await response.text();
 
