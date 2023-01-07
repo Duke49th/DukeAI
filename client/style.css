@@ -5,13 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Alegreya Sans", sans-serif;
-  position: relative;
-  bottom: 0;
+
 }
 
-body, html {
-  height: 100%;
-}
 
 body {
   background: #242424;
