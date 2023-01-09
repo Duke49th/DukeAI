@@ -11,9 +11,6 @@
 
 body {
   background: #242424;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 
 }
 
@@ -26,15 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-   /* Set the overflow property to scroll to enable scrolling */
-  overflow: scroll;
-  height: 100%;
 
-  /* Set the position property to absolute to remove the element from the normal flow of the page */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
 
 }
 
@@ -139,11 +128,7 @@ form {
   flex-direction: row;
   gap: 10px;
 
-    /* Position the form at the bottom of the page */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
 }
 
 textarea {
