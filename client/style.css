@@ -127,6 +127,12 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+
+    /* Position the form at the bottom of the page */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 textarea {
